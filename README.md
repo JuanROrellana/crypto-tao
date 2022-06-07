@@ -63,18 +63,12 @@ $ npm run test:cov
 ```bash
 # create the docker image
 $ docker run -p 3000:3000 -d app-name
-
-# test the app is running
-curl http://localhost:3000/
-
-# it should return
-Hello World!
 ```
 
-## Testing
+## Testing the Docker Image
 ```bash
 
-# test the app is running
+# test the app by running the curl command
 curl http://localhost:3000/
 
 # it should return
